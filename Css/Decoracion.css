@@ -1,82 +1,147 @@
-/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+/* Inicio */
+/* menu */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  h1, h2, p {
-    margin: 0;
-    padding: 0;
+    font-size: 15px;
   }
   
   /* Estilos para el encabezado */
-  header {
-    background-color: #333;
+  .header, img button{
+    background-color: rgb(16,0,79);
     color: #fff;
-    padding: 20px;
+    padding: 5px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
-  /* Estilos para la navegación */
-  nav {
-    background-color: #444;
-    padding: 10px;
+  img{
+    width: 45px;
+    height: auto;
   }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+
+  .nav-main .menu-selection, li {
+    text-decoration: none;
+    display: flex;
+    border: 10px;
+    justify-content: space-between;
   }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
+
+  .menu-selection li a{
     color: #fff;
+    padding: 15px;
+    list-style: none;
+    display: flex;
     text-decoration: none;
   }
-  
-  /* Estilos para el contenido principal */
-  main {
+
+  li a:hover{
+      transform: scale(1.1);
+      
+  }
+
+  .header button{
+    height: 40px;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border: solid transparent;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: 500;
+    margin-top: 5px;
+  }
+  button:hover{
+    transform: scale(1.1);
+  }
+
+  .portada img{
+    width: 100%;
+    height: 80%;
+  }
+
+  /* Estilo informacion de ciudades */
+  main{
     padding: 20px;
+    border-radius: 15px;
+    color: #fff;
   }
-  
-  /* Estilos para el mapa */
-  #mapa {
-    position: relative;
-    width: 800px;
-    height: 600px;
-    background-image: url('mapa-peru.jpg');
-    background-size: cover;
+  section h2{
+    color: rgb(16,0,79);
+    font-weight: 700;
+    font-size: 25px;
   }
-  
-  .marcador {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: red;
-    border-radius: 50%;
-    cursor: pointer;
+
+  section p{
+    color: rgb(16,0,79);
+    font-size: 15px;
   }
-  
-  /* Estilos para los artículos */
-  article {
-    margin-bottom: 20px;
+
+  /* Articulo #1 */
+  .article-1 .contain-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
   }
-  
-  article h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+
+  .contain-img figure img, figcaption{
+    width: 240px;
+    padding: 0; 
   }
-  
-  article p {
-    line-height: 1.5;
-    margin-bottom: 10px;
+
+  figure:hover{
+    transform: scale(1.1);
   }
-  
+
+  figcaption{
+    font-weight: 300;
+    font-size: 1.625rem;
+  }
+
+  .contain-img figcaption, p{
+    color: rgb(16,0,79);
+    font-weight: 800;
+    font-size: 25px;
+    padding: 0;
+  }
+
+  .contain-img p{
+    color: rgb(16,0,79);
+    font-weight: 200;
+    font-size: 12px;
+  }
+
+  /* Articulo #1 */
+  .populares> h2{
+    align-items: center;
+  }
+
+  .article-2 .contain-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+
+  .contain-info figure img {
+    width: 240px;
+    padding: 0; 
+  }
+  .contain-info figcaption, p{
+    color: rgb(16,0,79);
+    font-weight: 800;
+    font-size: 25px;
+    padding: 0;
+  }
+
+
+
   article a {
     color: #333;
     text-decoration: none;
@@ -90,15 +155,15 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  
   /* Estilos para el pie de página */
-  footer {
+  .derechos-autor p{
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-  }
-  
-  footer p {
+    font-size: large;
     margin: 0;
   }
+
+
+  
