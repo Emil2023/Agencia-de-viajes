@@ -9,14 +9,13 @@
   <body>
     <!-- Navegacion principal -->
     <header class="header">
-      <img src="img/logo.png" alt="" />
+      <img src="img/logo.png" />
       <nav class="nav-main">
         <ul class="menu-selection">
-          <li><a href="#cusco">Viaja ahora!</a></li>
-          <li><a href="#lima">Ofertas</a></li>
-          <li><a href="#lima">Centro de ayuda</a></li>
-          <li><a href=""></a></li>
-        <button type="button">Conocenos</button>
+          <li><a href="#paises">Viaja ahora!</a></li>
+          <li><a href="#populares">Populares</a></li>
+          <li><a href="#informacion">Información</a></li>
+        <button type="button"><a href="#acerca-de"></a> Conocenos</button>
         </ul>
       </nav>
     </header>
@@ -27,8 +26,7 @@
         <img src="img/portada.jpg" alt="">
     </div>
 
-    <main >
-    <a href="#cusco"></a>
+    <main id="paises" >
       <!-- Información de las ciudades -->
       <section class="info-ciudades" >
           <h2>Descubre tu próximo viaje</h2>
@@ -76,13 +74,12 @@
                 </figcaption>
             </figure>
           </div>
-          
       </section>
 
 
 
       <!-- Sección para mostrar información detallada de cada ciudad -->
-      <section class="populares">
+      <section id="populares" class="populares">
         <h2>Lo mas buscado</h2>
         <article class="article-2">
             <div class="contain-info">
@@ -101,14 +98,47 @@
                 </figure>
               </div>
         </article>
-
-        <!-- Agrega más contenido detallado si es necesario -->
       </section>
 
-      <section id="lima">
-        <h2>Lima</h2>
-        <p>Información detallada de la ciudad de Lima.</p>
+      
         <!-- Agrega más contenido detallado si es necesario -->
+      <section id="informacion" class="info">
+        <div class="info-legal">
+            <ul class="lista-info"> 
+                <h3>Información legal</h3>
+                <li>Condiciones de contrato de transporte</li>
+                <li>Cargos por servicio</li>
+                <li>Políticas de privacidad y seguridad</li>
+                <li>Términos de uso</li>
+                <li>Endosos y postergaciones</li>
+            </ul>
+            <br>
+            <ul class="lista-info"> 
+                <h3>Portales asociados</h3>
+                <li>Vamos / LATAM</li>
+                <li>Paquetes, hoteles y más</li>
+                <li>LATAM Cargo</li>
+                <li>LATAM Corporate</li>
+                <li>Trabaja con nosotros</li>
+            </ul>
+        </div>  
+        <!-- Acerca de. -->
+        <div class="acerca-de">
+            <div class="info-acerca-de">
+            <h1> Conocenos.</h1>
+            <h3> Michel Angelo Torres Landeo</h3>
+            <p>Codigo: i202010647</p>
+            <h3>Emilio Francisco Cabrera Gutierrez</h3>
+            <p>Codigo: i202332574 </p>
+        </div>
+
+        <div class="contactanos">
+            <img src="img/facebook.png" >
+            <img src="img/twitter.png" >
+            <img src="img/youtube.png" >
+            <img src="img/instagram.png" >
+        </div>
+
       </section>
     </main>
 
