@@ -188,8 +188,13 @@ body {
     font-weight: 500;
   }
 
-  .acerca-de .contactanos{
-    display: flex;
+  .contactanos img{
+    justify-content: space-between;
+    padding: 1em;
+  }
+
+  .contactanos img:hover{
+    transform: scale(1.1);
   }
 
 
